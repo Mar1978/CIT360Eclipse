@@ -38,7 +38,7 @@ public class S1_hello extends HttpServlet {
             out.println("<title>Servlet S1_hello</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet S1_hello at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet Hello Program");
             out.println("</body>");
             out.println("</html>");
         }

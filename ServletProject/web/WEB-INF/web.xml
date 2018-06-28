@@ -12,10 +12,6 @@
         <servlet-name>S1_hello</servlet-name>
         <servlet-class>Introduction.S1_hello</servlet-class>
     </servlet>
-    <servlet>
-        <servlet-name>NewServlet</servlet-name>
-        <servlet-class>Introduction.NewServlet</servlet-class>
-    </servlet>
     <servlet-mapping>
         <servlet-name>getFormValues</servlet-name>
         <url-pattern>/getFormValues</url-pattern>
@@ -27,10 +23,6 @@
     <servlet-mapping>
         <servlet-name>S1_hello</servlet-name>
         <url-pattern>/S1_hello</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>NewServlet</servlet-name>
-        <url-pattern>/NewServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
